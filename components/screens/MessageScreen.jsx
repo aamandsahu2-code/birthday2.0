@@ -85,7 +85,7 @@ export default function MessageScreen({ onNext }) {
                 >
                   <Heart className="w-10 h-10 text-rose-600" />
                   <p className="text-sm uppercase tracking-[0.3em] text-rose-700/80">
-                    To Anshika
+                    For my brother‑type dost
                   </p>
                   <p className="text-lg md:text-xl font-semibold text-rose-800">
                     Tap to open your letter
@@ -109,12 +109,16 @@ export default function MessageScreen({ onNext }) {
                 transition={{ duration: 0.4, delay: isOpen ? 0.15 : 0 }}
                 className="text-[#301733] text-base md:text-lg leading-relaxed overflow-y-auto max-h-[260px] pr-1"
               >
-                Happy Birthday, Princess Anshika! You deserve all the happiness, love, and smiles in the world today
-                and always. You have this special way of making everything around you brighter, your smile, your
-                kindness, and the way you make people feel truly cared for. I hope your day is filled with laughter,
-                surprises, and moments that make your heart happy. You&apos;re truly one of a kind, and I just want you to
-                know how special you are, Anshika. Keep being the amazing person you are, spreading joy wherever you go.
-                Wishing you endless happiness, success, and all the sweet things life has to offer. 💗
+                Happy Birthday, mere bhai! Tu sirf dost nahi, mere liye family jaisa hai. Saare ups and downs me,
+                har baar mere saath खड़ा रहा, bina kisi expectation ke support kiya. Aaj tera दिन है, aur dil se
+                wish hai ki tera har saal पिछली baar se zyada mast जाये. Jo sapne tere dimaag me chupke se baithe
+                hain na, un sab tak tu zaroor पहुंचे.  
+                <br />
+                <br />
+                Thanks issliye bhi, kyunki tu waise hi real इंसान है jaisa aajkal milna मुश्किल hai – seedha, honest,
+                thoda pagal, but dil ka साफ. Aise hi haste reh, bakchodi karta reh, aur kabhi bhi ये mat sochna ki tu
+                अकेला है – jab bhi besoin ho, call कर दे, chahe रात ke 3 baje ho. Happy birthday meri jaan‑se प्यारे
+                dost, always stay the way you are. 💙
               </motion.p>
             </motion.div>
           </motion.div>
