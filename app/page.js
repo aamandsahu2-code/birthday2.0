@@ -31,7 +31,7 @@ export default function HomePage() {
         <div className="absolute w-40 h-40 bg-violet-500/20 blur-3xl rounded-full top-1/3 right-10" />
       </div>
 
-      {/* Stars + floating hearts (subtle, bestie vibe) */}
+      {/* Stars + floating hearts */}
       <StarsBackground />
       <HeartsBackground />
 
@@ -108,7 +108,7 @@ function StarsBackground() {
   )
 }
 
-/* Floating hearts – light, not too romantic */
+/* Floating hearts – light, fun bestie vibe */
 function HeartsBackground() {
   const hearts = [
     { left: "10%", delay: "0s", size: 14 },
@@ -139,7 +139,7 @@ function HeartsBackground() {
         .heart-floating {
           position: absolute;
           transform: rotate(-45deg);
-          background: rgba(248, 113, 181, 0.6); /* pink-400 */
+          background: rgba(248, 113, 181, 0.6);
           animation: float-heart 10s linear infinite;
         }
 
